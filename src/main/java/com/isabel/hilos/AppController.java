@@ -1,6 +1,5 @@
 package com.isabel.hilos;
 
-import com.isabel.hilos.util.Alertas;
 import com.isabel.hilos.util.R;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -9,12 +8,10 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
-import javafx.stage.FileChooser;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.*;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
