@@ -9,12 +9,16 @@ import javafx.scene.Parent;
 import javafx.scene.control.*;
 import javafx.scene.layout.VBox;
 import javafx.stage.FileChooser;
+import org.apache.logging.log4j.Logger;
+
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ResourceBundle;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class DescargaController implements Initializable {
 
@@ -27,10 +31,14 @@ public class DescargaController implements Initializable {
     private File file;
     static Path rutaArchivo;
 
+    private static final Logger logger = LogManager.getLogger(DescargaController.class);
+
+
     //Constructores
     public DescargaController(String urlText){
         this.urlText = urlText;
     }
+
     public DescargaController() {
 
     }
@@ -99,13 +107,12 @@ public class DescargaController implements Initializable {
                 });
 
                 new Thread (descargaTask).start();
-
-            
         }
     
 
     @FXML
     public void cancelar(ActionEvent event){
+        logger.trace("Descarga: " + tfUrl + " cancelada");
         if(descargaTask != null)
             descargaTask.cancel();
     }

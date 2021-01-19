@@ -1,0 +1,22 @@
+19:08:53.113 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.251.tar.xz iniciada
+19:09:01.785 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.251.tar.xzfinalizada
+09:08:52.632 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.252.tar.xz iniciada
+09:09:02.883 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.252.tar.xzfinalizada
+09:16:55.254 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.252.tar.xz iniciada
+09:16:56.511 [Thread-4] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.252.tar.xz iniciada
+09:17:09.598 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.252.tar.xzfinalizada
+09:17:17.407 [Thread-4] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.252.tar.xzfinalizada
+09:20:03.081 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.252.tar.xz iniciada
+09:20:12.847 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.252.tar.xzfinalizada
+17:11:23.461 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.216.tar.xz iniciada
+17:11:42.766 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.216.tar.xzfinalizada
+17:17:29.970 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.216.tar.xz iniciada
+17:17:46.031 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.216.tar.xzfinalizada
+17:19:10.781 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.216.tar.xz iniciada
+17:19:30.805 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.216.tar.xzfinalizada
+17:20:39.343 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.216.tar.xz iniciada
+17:21:01.455 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.216.tar.xzfinalizada
+17:23:40.218 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.216.tar.xz iniciada
+17:23:56.539 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.216.tar.xzfinalizada
+17:26:07.582 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.216.tar.xz iniciada
+17:26:20.347 [Thread-3] TRACE com.isabel.hilos.DescargaController - Descarga: https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.216.tar.xzfinalizada

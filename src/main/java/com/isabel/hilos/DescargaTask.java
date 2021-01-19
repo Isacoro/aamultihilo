@@ -1,6 +1,9 @@
 package com.isabel.hilos;
 
 import javafx.concurrent.Task;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -14,6 +17,8 @@ public class DescargaTask extends Task <Integer>{
     private URL url;
     private File file;
 
+    private static final Logger logger = LogManager.getLogger(DescargaController.class);
+
     public DescargaTask(String urlText, File file) throws MalformedURLException {
         this.url = new URL(urlText);
         this.file = file;
@@ -23,6 +28,7 @@ public class DescargaTask extends Task <Integer>{
 
     @Override
     protected Integer call() throws Exception {
+        logger.trace("Descarga: " + url.toString() + " iniciada");
         updateMessage("Conectando al servidor...");
 
         //Hago conexión para calcular el tamaño del fichero a descargar
@@ -66,6 +72,7 @@ public class DescargaTask extends Task <Integer>{
         updateProgress(1, 1);
         updateMessage("100%");
 
+        logger.trace("Descarga: " + url +  "finalizada");
         return null;
     }
 }
